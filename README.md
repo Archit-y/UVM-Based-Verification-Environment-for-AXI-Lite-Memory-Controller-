@@ -42,6 +42,7 @@ iverilog -g2012 -o sim ../rtl/axi_lite_slave.sv tb_axi_lite_directed.sv
 vvp sim
 ```
 
+
 ## Running the UVM environment
 
 See `docs/RUNNING_ON_VIVADO.md` (Xilinx Vivado / xsim) or `docs/RUNNING_ON_MODELSIM.md` (ModelSim/Questa) for exact compile/elaborate/run commands, including GUI steps.
