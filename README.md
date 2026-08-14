@@ -46,6 +46,3 @@ vvp sim
 
 See `docs/RUNNING_ON_VIVADO.md` (Xilinx Vivado / xsim) or `docs/RUNNING_ON_MODELSIM.md` (ModelSim/Questa) for exact compile/elaborate/run commands, including GUI steps.
 
-## Next steps
-
-- SVA protocol assertions (handshake timing, address/data phase legality, illegal-transition checks).
