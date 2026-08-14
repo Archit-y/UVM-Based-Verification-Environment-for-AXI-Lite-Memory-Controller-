@@ -1,0 +1,26 @@
+# Simulator artifacts
+*.vcd
+*.wlf
+*.log
+*.jou
+work/
+xsim.dir/
+*.pb
+*.wdb
+*.jbn
+*.jou
+sim_directed
+*.vstf
+
+# Vivado project cruft (if a .xpr project ever gets committed here)
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+.Xil/
+vivado*.log
+vivado*.jou
+webtalk*.log
