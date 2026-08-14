@@ -36,9 +36,10 @@ vsim -c tb_axi_lite_uvm_top +UVM_TESTNAME=axi_lite_back_to_back_test -do "run -a
 2. `axi_lite_write_read_test` should show scoreboard MATCH for every address.
 3. `axi_lite_strobe_test` specifically exercises WSTRB=4'b0000 (no-op write) —
    watch for that one; it's an edge case worth confirming the DUT handles
+   
    as a true no-op.
-4. Check `report_phase` output at the end for scoreboard error count and
+5. Check `report_phase` output at the end for scoreboard error count and
    functional coverage percentage.
-5. Please paste back any compile errors — likely candidates given this is
+6. Please paste back any compile errors — likely candidates given this is
    fresh code: config_db type mismatches, clocking-block signal direction
    errors, or factory registration typos. I'll fix immediately.
